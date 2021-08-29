@@ -1,16 +1,16 @@
 /* my First program in C++ */
-#inclide <conio.h> 
-#inclide <stdio.h> 
+#include <conio.h> 
+#include <stdio.h> 
 main()
 {
   float a,b,c;
   a=b=c=0;
   char Sign;      
-    printf("Enter the number 1 in dec");
+    printf("Enter the number 1  ");
       scanf("%f",&a);
-    printf("Enter the mathematics operation:+;-;*;/.");
+    printf("Enter the mathematics operation:[+;-;*;/.]  ");
       scanf("%s", &Sign);
-    printf("Enter the number 2 in dec");
+    printf("Enter the number 2 ");
        scanf("%f",&b);
            switch(Sign)
            {
